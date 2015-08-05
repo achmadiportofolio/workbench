@@ -8,7 +8,7 @@ You can install the package via composer command line by runnign this following 
 composer require xtwoend/workbench
 ```
 
-After the package installed, add `Pingpong\Workbench\WorkbenchServiceProvider` to your `providers` array in `config/app.php` file.
+After the package installed, add `Xtwoend\Workbench\WorkbenchServiceProvider::class` to your `providers` array in `config/app.php` file.
 
 And the last, publish the package's configuration by running:
 
